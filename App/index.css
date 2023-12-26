@@ -52,18 +52,32 @@ details {
      color: hsl(240, 6%, 50%);
 }
 
+details > p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 90%;
+}
+
+details[open] > summary {
+    color: black;
+    font-weight: 700;
+}
+
+details[open] > summary::after {
+    content:url(/images/icon-arrow-down.svg);
+    float: right;
+    transform: rotate(180deg);
+}
+
 summary {
     list-style-type: none;
     font-size: 13px;
     padding: 5px 0 5px 0;
     color:hsl(237, 12%, 33%) ;
-    font-weight: 500;
+    font-weight: 400;
 }
 
-details > p {
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
+
 summary::after {
     content:url(/images/icon-arrow-down.svg);
     float: right;
@@ -72,4 +86,26 @@ summary::after {
 summary:hover{
     color: black;
     font-weight: 700;
+}
+
+@media (min-width: 500px) {
+    body {
+        max-width: 450px;
+    }
+}
+
+@media (min-width:800px){
+    /* img{
+        content:url("/images/illustration-woman-online-desktop.svg");
+    } */
+
+    img[content*="/images/illustration-woman-online-mobile.svg"] {
+        background-image: url("/images/illustration-woman-online-desktop.svg");
+        background-repeat: no-repeat;
+        width: 20rem;
+        height: 10rem;
+    }
+    .shadow{
+        content: url("/images/bg-pattern-desktop.svg");
+    }
 }
