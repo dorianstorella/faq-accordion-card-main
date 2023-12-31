@@ -144,3 +144,13 @@ summary:hover{
 
     }
 }
+
+
+/* 
+        center icon for -300px screen
+    position: absolute;
+    right: 0px;
+    left: auto;
+    top: 50%;
+    margin: auto 0 auto 0;
+    transform: translateY(-50%); */
