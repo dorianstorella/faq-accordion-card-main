@@ -94,18 +94,53 @@ summary:hover{
     }
 }
 
-@media (min-width:800px){
-    /* img{
-        content:url("/images/illustration-woman-online-desktop.svg");
-    } */
-
-    img[content*="/images/illustration-woman-online-mobile.svg"] {
-        background-image: url("/images/illustration-woman-online-desktop.svg");
-        background-repeat: no-repeat;
-        width: 20rem;
-        height: 10rem;
+@media (min-width:1050px){
+    
+    header {
+        width: 45%;
+        text-align: left;
+        margin: 0 0 30px auto;
     }
+
+    body {
+        width: 55%;
+        max-width: none;
+        padding: 50px 120px 90px 50px;
+        background-image: url("/images/bg-pattern-desktop.svg");
+        background-position: left -590px top -300px;
+        background-repeat: no-repeat;
+    }
+
+    figure {
+        position: relative;
+        width: auto;
+        height: auto;
+        content: close-quote;
+        box-sizing: border-box;
+        left: -145px;
+        top: -50px;
+
+    }
+
+    img {
+        content: url("/images/illustration-woman-online-desktop.svg");
+        position: absolute;
+        width: 472px;
+        height: 359px;
+        margin: 0;
+    }
+
     .shadow{
-        content: url("/images/bg-pattern-desktop.svg");
+        content: url("/images/illustration-box-desktop.svg");
+        position: absolute;
+        width:191px; 
+        height:184px;
+    }
+
+    details{
+        display: block;
+        width: 45%;
+        margin: 0 0 0 auto;
+
     }
 }
