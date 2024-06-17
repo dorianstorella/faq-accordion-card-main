@@ -64,7 +64,7 @@ details[open] > summary {
 }
 
 details[open] > summary::after {
-    content:url(/images/icon-arrow-down.svg);
+    content:url(FAQ-ACCORDION-CARD-MAIN/images/icon-arrow-down.svg);
     float: right;
     transform: rotate(180deg);
 }
@@ -79,7 +79,7 @@ summary {
 
 
 summary::after {
-    content:url(/images/icon-arrow-down.svg);
+    content:url(FAQ-ACCORDION-CARD-MAIN/images/icon-arrow-down.svg);
     float: right;
 }
 
@@ -128,7 +128,7 @@ summary:hover{
     }
 
     img {
-        content: url("/images/illustration-woman-online-desktop.svg");
+        content: url("FAQ-ACCORDION-CARD-MAIN/images/illustration-woman-online-desktop.svg");
         position: absolute;
         width: 472px;
         height: 359px;
@@ -136,7 +136,7 @@ summary:hover{
     }
 
     .shadow{
-        content: url("/images/illustration-box-desktop.svg");
+        content: url("FAQ-ACCORDION-CARD-MAIN/images/illustration-box-desktop.svg");
         position: absolute;
         width:191px; 
         height:184px;
