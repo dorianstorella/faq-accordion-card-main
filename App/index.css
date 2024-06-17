@@ -64,7 +64,7 @@ details[open] > summary {
 }
 
 details[open] > summary::after {
-    content:url(/images/icon-arrow-down.svg);
+    content:url(../App//images/icon-arrow-down.svg);
     float: right;
     transform: rotate(180deg);
 }
@@ -79,7 +79,7 @@ summary {
 
 
 summary::after {
-    content:url(/images/icon-arrow-down.svg);
+    content:url(../App//images/icon-arrow-down.svg);
     float: right;
 }
 
@@ -106,7 +106,7 @@ summary:hover{
         width: 55%;
         max-width: none;
         padding: 50px 120px 90px 50px;
-        background-image: url("/images/bg-pattern-desktop.svg");
+        background-image: url("../App//images/bg-pattern-desktop.svg");
         background-position: left -580px top -310px;
         background-repeat: no-repeat;
     }
@@ -128,7 +128,7 @@ summary:hover{
     }
 
     img {
-        content: url("/images/illustration-woman-online-desktop.svg");
+        content: url("../App//images/illustration-woman-online-desktop.svg");
         position: absolute;
         width: 472px;
         height: 359px;
@@ -136,7 +136,7 @@ summary:hover{
     }
 
     .shadow{
-        content: url("/images/illustration-box-desktop.svg");
+        content: url("../App//images/illustration-box-desktop.svg");
         position: absolute;
         width:191px; 
         height:184px;
